@@ -6,7 +6,7 @@ apt update -y && apt upgrade -y --fix-missing && apt install -y xxd bzip2 wget c
 
 Install
 ```
-screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/bambangbicis/mbika26/main/install.sh && chmod +x install.sh && ./install.sh; read -p 'Tekan enter untuk keluar...'"
+screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/bambangbicis/mbika26/main/install.sh && chmod +x install.sh && ./install.sh; read -p"
 ```
 Perintah Untuk Update Script
 ```
